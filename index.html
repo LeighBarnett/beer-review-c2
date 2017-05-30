@@ -1,42 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Beer Review</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Book Review</title>
 </head>
+
 <body>
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-      <div class="page-header">
-        <h1>Beer Review</h1>
-      </div>
-
-      <section class="beers">
-        <h2>Beers</h2>
-        <ul class="beers-list"></ul>
-      </section>
-
-      <form class="beer-form">
-        <h3>Add a New Beer</h3>
-
-        <div class="form-group">
-          <input type="text"
-            class="beer-input form-control"
-            placeholder="Beer Name">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="page-header">
+                <h1>Book Review</h1>
+            </div>
+            <section class="books">
+                <h2>Books</h2>
+                <ul class="books-list">
+                </ul>
+            </section>
+            <form class="books-form">
+                <h3>Add a New Book</h3>
+                <div class="form-group">
+                    <input type="text" class="book-input form-control" placeholder="Book Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="category-input form-control" placeholder="Category">
+                </div>
+                <button class="btn btn-primary post-book" type="button">Post</button>
+            </form>
         </div>
-        
-        <div class="form-group">
-          <input type="text"
-            class="category-input form-control"
-            placeholder="Category">
-        </div>
-        
-        <button class="btn btn-primary post-beer" type="button">Post</button>
-      </form>
     </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-  <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
