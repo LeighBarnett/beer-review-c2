@@ -19,14 +19,28 @@
                 </ul>
             </section>
             <form class="books-form">
-                <h3>Add a New Book</h3>
+                <h3>Add a new book</h3>
                 <div class="form-group">
                     <input type="text" class="book-input form-control" placeholder="Book Name">
                 </div>
                 <div class="form-group">
                     <input type="text" class="category-input form-control" placeholder="Category">
                 </div>
-                <button class="btn btn-primary post-book" type="button">Post</button>
+                <div class="form-group">
+                 <h3>How would you rate this book?</h3>
+                 
+                <select class="rate-input form-control">
+                    <option value="0"> Rate </option>
+                    <option value="1" class ="terrible"> Terrible </option>
+                    <option value="2"class ="bad"> Bad </option>
+                    <option value="3" class ="average"> Average </option>
+                    <option value="4" class ="good"> Good </option>
+                    <option value="5" class ="excellent">Excellent</option>
+                    </div>
+                </select>
+                <br></br>
+                <div>
+                <button class="btn btn-primary post-book" type="button">Post</button></div>
             </form>
         </div>
     </div>
